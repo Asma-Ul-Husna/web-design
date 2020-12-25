@@ -1,0 +1,16 @@
+.mydiv{
+	height: 200px;
+	width: 200px;
+	background-image:url(shiuly.jpg); 
+
+}
+#A > p{
+	color: red;
+
+}
+#A > #B >p{
+	color: green;
+}
+#A > #B > #C >p{ 
+color: yellow;
+ }

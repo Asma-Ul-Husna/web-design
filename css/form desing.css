@@ -1,0 +1,8 @@
+label{
+	color: blue;
+	background: gray;
+}
+input[ type="text"]{
+	border: 1px solid green;
+	border-radius: 5px;
+}

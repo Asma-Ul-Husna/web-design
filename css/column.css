@@ -1,0 +1,49 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+.parent_div{
+width:1200px;
+margin: 50px auto;
+
+
+}
+.child_div>img{
+
+height: 200px;
+width: 300px;
+}
+.child_div{
+
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	padding: 6px;
+    border: 2px solid #e4dede;
+  box-shadow: 1px 1px 5px 3px #6f6a6a;
+}
+
+.child_div>p{
+	text-align: justify;
+}
+.child_div>a{
+
+	text-decoration: none;
+	background: black;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 6px 0px;
+	margin-top:5px; 
+}
+.child_div>a:hover{
+
+	background: powderblue;
+	color: black;
+}
+
+
+
+

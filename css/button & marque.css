@@ -1,0 +1,7 @@
+.btn {
+    border: 1px solid #ca400b;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}

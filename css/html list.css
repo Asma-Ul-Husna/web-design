@@ -1,0 +1,11 @@
+table{
+	width: 500px;
+	border: 2px solid green;
+	border-collapse: collapse;
+	background: grey;
+
+}
+table th, tr, td{
+	border: 2px solid red;
+
+}

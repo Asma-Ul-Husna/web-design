@@ -1,0 +1,30 @@
+  ul{
+  	list-style-type: none;
+  	margin: 250px 600px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    background: #0c7e98;
+    margin-bottom: 6px;
+    padding: 8px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    color: #f1f19e;
+    font-size: 20px;
+}
+ul li a:hover{
+	background: green;
+	color: red;
+
+}
+ul li a:active{
+	background: black;
+}
+ul li a:focus{
+	background: powderblue;
+}
+ul li a:visited{
+	background: gray;
+}

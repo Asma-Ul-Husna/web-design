@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    outline: 0px;
+   
+}
+.menu{
+    list-style-type: none;
+    width: 1190px;
+    min-height: 50px;
+    margin: 0px;
+    background: #444
+ 
+
+}
+.menu li{
+    float: left;
+   
+}
+.menu li a {
+    text-decoration: none;
+    background: #444;
+    color: #d4cbcb;
+    padding: 10px 49px;
+}
+.menu li a:hover{
+    color : white;
+}

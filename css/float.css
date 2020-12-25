@@ -1,0 +1,19 @@
+.A{
+    width: 400px;
+    height: 250px;
+    /* background-color: pink; */
+    float: left;
+    /* margin-right: 10px; */
+    overflow: scroll;
+
+
+}
+.B{
+	width: 200px;
+	height: 200px;
+	/*background-color: blue;*/
+	float: left;
+	margin-left: 10px;
+	background: linear-gradient(to left, red,blue,green,pink,yellow);
+
+}

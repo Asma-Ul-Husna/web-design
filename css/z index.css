@@ -1,0 +1,28 @@
+ .div1{
+    	width: 150px;
+    	height: 150px;
+    	background: green;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        z-index: 5;
+    }
+     .div2{
+    	width: 150px;
+    	height: 150px;
+    	background: red;
+        position: relative;
+        top: -50px;
+        left: 50px;
+        z-index: 4;
+    }
+     .div3{
+    	width: 150px;
+    	height: 150px;
+    	background: gray;
+        position: relative;
+        top: -100px;
+        left: 100px;
+        z-index: 6;
+
+    }

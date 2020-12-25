@@ -1,0 +1,19 @@
+#parent > p{
+	/*color: blue;
+	width: 600px;
+	height: 300px;
+	border: 2px solid green;
+	overflow: scroll;
+	display: block;*/
+
+}
+span{
+	color: green;
+	display: block;
+}
+#parent > #child1  p{
+	color: green;
+}
+#parent > #child1 > #child2  p{
+	color: yellow;
+} 

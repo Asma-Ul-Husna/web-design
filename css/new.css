@@ -1,0 +1,21 @@
+.div1{
+	
+    height: 200px;
+    width: 1330px;
+    border: 1px solid #d8e238;
+    overflow: scroll;
+      background-color: #aff1eb;
+
+}
+a{
+	text-decoration: none;
+	padding: 10px 10px;
+}
+
+img{
+	padding: 10px 10px;
+}
+input{
+	border: 2px solid gray;
+	border-radius: 5px;
+}

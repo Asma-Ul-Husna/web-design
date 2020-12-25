@@ -1,0 +1,23 @@
+/*h2{
+
+	    font-size: 50px;
+    font-family: emoji;
+    color: rosybrown;
+    text-shadow: 5px 5px 4px midnightblue, 5px 5px 4px blue
+}*/
+ 
+ .mydiv {
+    width: 200px;
+    height: 180px;
+    margin: 50px auto;
+    background-color: #007a80;
+    box-shadow: 10px 10px 3px 4px darkslategrey;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=JetBrains+Mono:wght@500&family=Nerko+One&display=swap');
+
+h2{
+	font-family: 'East Sea Dokdo', cursive;
+/*font-family: 'JetBrains Mono', monospace;
+font-family: 'Nerko One', cursive;*/
+}
