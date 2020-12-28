@@ -6,12 +6,14 @@
 .menu{
 
     background: #444;
-      width: 1441px;
+      width: 100%;
     height: 47px;
+    margin-top: -71px;
+    position: fixed;
     }
 .menu ul{
     list-style-type: none;
-    padding: 15px 200px;
+    padding: 15px 125px;
 }
 
 .menu ul a{
@@ -33,7 +35,7 @@ float: left;
 	padding-left: 250px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 57px;
+    margin-top: 71px;
     text-align: center;
     padding-right: 250px
 }
@@ -52,7 +54,7 @@ float: left;
     margin-top: 100px;
     width: 1200px;
     height: 400px;
-    margin-left: 250px;
+    margin-left: 149px;
 }
 
 .mid>.same>.A{
@@ -107,15 +109,15 @@ a {
     cursor: pointer;
 }
 .text {
-    width: 1356px;
-    height: 50px;
+    width: 100%;
+    height: 100px;
     text-align: center;
     margin-top: 70px;
     background: #f5f2f2;
-    padding: 67px 10px;
+    padding-top: 50px;
 }
 .see {
-    width: 1356px;
+    width: 100%;
     height: 40px;
     margin-top: 50px;
 }
@@ -127,25 +129,39 @@ a {
     background: none;
     font-family: fangsong;
 }
+
 .ftr {
+	width: 100%;
     background-color: #333;
     font-size: 15px;
     color: white;
-    padding: 30px 0;
     font-family: emoji;
+    overflow: hidden;
 }
-.ftr>.foot{
-	height: 50px;
-	width: 500px;
+.ftr>.divider{
+	width: 100%;
+	height: 100px;
 	background: #333;
 }
-.ftr>.foot ul{
-	list-style-type: none;
+.ftr>.divider>.foot{
+	height: 100px;
+	width: 50%;
+    background: #333;
+    float: left;
 }
-.ftr>.foot ul li{
+.ftr>.divider>.foot ul{
+    list-style-type: none;
+    margin-left: 85px;
+}
+.ftr>.divider>.foot ul li{
 	float: left;
-	padding: 15px 10px;
+	padding: 40px 10px;
 }
-.ftr>.foot ul li a{
-	text-decoration: none;
+.ftr>.divider>.foot ul li a{
+    text-decoration: none;
+    color: white;
+}
+.ftr>.divider>.foot ul li:last-child{
+    padding-top: 41px;
+    padding-bottom: 20px;
 }
