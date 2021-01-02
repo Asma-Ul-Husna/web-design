@@ -30,6 +30,9 @@ margin: 0px;
 padding: 0px 10px;
     
 }
+.menu>.menu-child ul li a:hover{
+    color: white;
+}
 #first-element{
     color: white;
     font-size: 22px;
@@ -41,15 +44,44 @@ padding: 0px 10px;
     float: left;
 
 }
-.menu>.menu-child2 form{
+.menu>.menu-child2>.search{
     width: 200px;
     height: 50px;
     float: left;
+    background: #37373a;
 }
-.menu>.menu-child2 form img{
+.menu>.menu-child2>.search img{
     display:inline;
     padding: 15px 0px;
+    position: absolute;
 }
-.menu>.menu-child2 form input{
-    margin-left:20px ;
+.menu>.menu-child2>.search input{
+    margin-left: 22px;
+    background: #37373a;
+    position: relative;
+    border: 0px;
+    color: white;
+    outline: 0px;
+    padding: 16px 0px;
 }
+.menu>.menu-child2>.search:hover{
+   background: #58585a;   
+}
+.menu>.menu-child2>.search input:hover{
+    background: #58585a; 
+   
+    }
+    .menu>.menu-child2 button{
+        width: 140px;
+        height: 50px;
+        background: #047de0;
+        color: white;
+        border: none;
+        font-size: 19px;
+        outline: 0px;
+        cursor: pointer;
+        font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    }
+    .menu>.menu-child2 button:hover{
+        background: rgb(34, 127, 248);
+    }
